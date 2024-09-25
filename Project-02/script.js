@@ -1,4 +1,4 @@
-var tl = gsap.timeline();
+const tl = gsap.timeline();
 
 tl.to("#full",{
     right:0,
@@ -23,9 +23,9 @@ var menu = document.querySelector("#nav i");
 var cross = document.querySelector("#full i");
 
 menu.addEventListener("click",function(){
-    tl.play();
+    tl.play()
 })
 
 cross.addEventListener("click",function(){
-    tl.reverse();
+    tl.reverse()
 })
