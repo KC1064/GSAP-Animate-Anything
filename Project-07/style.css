@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#div1,
+#div2 {
+  height: 50vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#div1 {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#div2 {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+#p1,
+#p2 {
+  font-size: 80px;
+  color: white;
+}
+
